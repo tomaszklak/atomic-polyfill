@@ -37,7 +37,7 @@ fn main() {
         ("thumbv7em-*", (Native, Polyfill)),
         ("thumbv8m.base-*", (Native, Polyfill)),
         ("thumbv8m.main-*", (Native, Polyfill)),
-        ("xtensa-*-espidf", (Native, Native)),
+        ("xtensa-*-espidf", (Native, Polyfill)),
         ("xtensa-esp32-*", (Native, Polyfill)),
         ("xtensa-esp32s2-*", (Polyfill, Polyfill)),
         ("xtensa-esp32s3-*", (Native, Polyfill)),
